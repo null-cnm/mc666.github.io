@@ -1,0 +1,29 @@
+{
+  "version": "14.16",
+  "buildNumber": 9,
+  "loadlist": [
+    {
+      "name": "CustomeSkinLoad",
+      "type": "CustomSkinAPI",
+      "root": "http://pyip.mc666.cn:17023/expand_function/get_skins_customskinapi/"
+    },
+    {
+      "name": "Mojang",
+      "type": "MojangAPI",
+      "apiRoot": "https://api.mojang.com/",
+      "sessionRoot": "https://sessionserver.mojang.com/"
+    }
+  ],
+  "enableDynamicSkull": true,
+  "enableTransparentSkin": false,
+  "forceIgnoreHttpsCertificate": false,
+  "forceLoadAllTextures": true,
+  "enableCape": true,
+  "threadPoolSize": 8,
+  "enableLogStdOut": false,
+  "cacheExpiry": 30,
+  "forceUpdateSkull": false,
+  "enableLocalProfileCache": false,
+  "enableCacheAutoClean": false,
+  "forceDisableCache": false
+}
